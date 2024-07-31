@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Calculate from './components/Calculate';
+import Greet from './components/Greet';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Greet/>
+    {/* <Calculate/> */}
   </React.StrictMode>
 );
 
