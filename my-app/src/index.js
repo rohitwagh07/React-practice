@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Calculate from './components/Calculate';
 import Greet from './components/Greet';
+import Welcome from './components/Welcome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <Greet/>
+    <Welcome/>
     {/* <Calculate/> */}
   </React.StrictMode>
 );
