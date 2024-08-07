@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Calculate from './components/Calculate';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import Football from './components/Football';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     {/* <Calculate/> */}
 
     {/* <Welcome/> */}
+    <Football/>
   </React.StrictMode>
 );
 
