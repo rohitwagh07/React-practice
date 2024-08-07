@@ -12,10 +12,12 @@ root.render(
   <React.StrictMode>
     <App />
     <Greet/>
-    <Welcome name="Rohit"/>
+    {/* <Welcome name="Rohit"/>
     <Welcome name="Aman"/>
-    <Welcome name="Pramod"/>
+    <Welcome name="Pramod"/> */}
     {/* <Calculate/> */}
+
+    {/* <Welcome/> */}
   </React.StrictMode>
 );
 
