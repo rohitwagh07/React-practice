@@ -1,6 +1,7 @@
 // import Calculate from './components/Calculate';
+import React from "react";
 
-const App=() =>{
+const App=({name,city}) =>{
 
   const myArray =['banana','apple','kiwi','orange'];
 
@@ -12,6 +13,7 @@ const App=() =>{
     <h1>Hello world</h1>
     {myArray.map((item) => <p>{item}</p>)}
     {combinednumbers.map((value)=><p>{value}</p>)}
+    <h1>HEY MY NAME IS {name} AND I AM FORM {city}</h1>
     
     </>
   )
